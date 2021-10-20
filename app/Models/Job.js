@@ -20,7 +20,7 @@ export class Job {
           <p>${this.description}</p>
           <div class="d-flex align-items-center">
             <div style="background-color: ${this.salary}" class="color-swatch mx-2"></div>
-            <p class="m-0"><em>$${this.salary}</em></p>
+            <p class="m-0"><em>Salary: $${this.salary}</em></p>
             </div>
             <div class="text-end">
             <button title="delete job" class='btn btn-danger justify-self-end' onclick="app.jobsController.deleteJob('${this.id}')"><i class='mdi mdi-delete'></i></button>

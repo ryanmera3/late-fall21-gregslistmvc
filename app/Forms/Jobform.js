@@ -15,7 +15,7 @@ export function getJobForm() {
 </div>
 <div class="mb-3 d-flex justify-content-between">
   <div>
-    <label for="salary" class="form-label">Salary in</label>
+    <label for="salary" class="form-label">Salary</label>
     <input type="number" class="form-control" name="salary" id="salary" aria-describedby="salary"
       placeholder="Salary..."  required>
   </div>
