@@ -9,6 +9,11 @@ function _drawJobs() {
   jobs.forEach(job => template += job.Template)
 
   document.getElementById('listings').innerHTML = template
+  document.getElementById('nav-color').classList.remove('bg-primary')
+  document.getElementById('nav-color').classList.remove('bg-secondary')
+  document.getElementById('nav-color').classList.remove('bg-grey')
+  document.getElementById('nav-color').classList.add('bg-dark')
+
 }
 export class JobsController {
   constructor() {

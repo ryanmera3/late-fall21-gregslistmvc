@@ -13,16 +13,16 @@ class AppState extends EventEmitter {
   ]
 
   houses = [
-    new House({ address: '1111 N. Random Way', neighborhood: 'Tuscany', color: '#249255', price: 1000000, imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80', built: 1950, description: 'This house is haunted' }),
-    new House({ address: '1111 N. Random Way', neighborhood: 'Tuscany', color: '#249255', price: 1000000, imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80', built: 1950, description: 'This house is haunted' }),
-    new House({ address: '1111 N. Random Way', neighborhood: 'Tuscany', color: '#249255', price: 1000000, imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80', built: 1950, description: 'This house is haunted' }),
+    new House({ address: '1111 N. Random Way', neighborhood: 'Tuscany', color: '#249255', price: 1000000, imgUrl: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80', built: 1950, description: 'May be haunted' }),
+    new House({ address: '11231 N. Random Way', neighborhood: 'Tuscany', color: '#249255', price: 500000, imgUrl: 'https://images.unsplash.com/photo-1430285561322-7808604715df?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80', built: 1965, description: 'This house is haunted' }),
+    new House({ address: '1111 N. Random Way', neighborhood: 'Tuscany', color: '#249255', price: 123457, imgUrl: 'https://images.unsplash.com/photo-1571055107559-3e67626fa8be?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1631&q=80', built: 1988, description: 'We have an outhouse' }),
 
   ]
 
   jobs = [
-    new Job({ position: 'Janitor', company: 'Boise State', salary: 100000, hours: 40, description: 'Clean stuff', imgUrl: 'https://images.unsplash.com/photo-1625314563148-572c6af9e9d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1446&q=80' }),
-    new Job({ position: 'Janitor', company: 'Boise State', salary: 100000, hours: 40, description: 'Clean stuff', imgUrl: 'https://images.unsplash.com/photo-1625314563148-572c6af9e9d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1446&q=80' }),
-    new Job({ position: 'Janitor', company: 'Boise State', salary: 100000, hours: 40, description: 'Clean stuff', imgUrl: 'https://images.unsplash.com/photo-1625314563148-572c6af9e9d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1446&q=80' })
+    new Job({ position: 'Sous Chef', company: 'Taco Bell', salary: 30000, hours: 40, description: 'We make tacos', imgUrl: 'https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=677&q=80' }),
+    new Job({ position: 'Astronaut', company: 'NASA', salary: 100000, hours: 40, description: 'We go to space', imgUrl: 'https://images.unsplash.com/photo-1541873676-a18131494184?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=718&q=80' }),
+    new Job({ position: 'Janitor', company: 'Arbys', salary: 1000000, hours: 40, description: 'Clean stuff', imgUrl: 'https://images.unsplash.com/photo-1625314563148-572c6af9e9d5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1446&q=80' })
   ]
 }
 

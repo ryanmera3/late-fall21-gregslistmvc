@@ -9,6 +9,10 @@ function _drawHouses() {
   houses.forEach(house => template += house.Template)
 
   document.getElementById('listings').innerHTML = template
+  document.getElementById('nav-color').classList.remove('bg-primary')
+  document.getElementById('nav-color').classList.remove('bg-dark')
+  document.getElementById('nav-color').classList.remove('bg-grey')
+  document.getElementById('nav-color').classList.add('bg-secondary')
 }
 export class HousesController {
   constructor() {

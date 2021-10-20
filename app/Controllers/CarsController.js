@@ -9,6 +9,10 @@ function _drawCars() {
   cars.forEach(car => template += car.Template)
   // add to page
   document.getElementById('listings').innerHTML = template
+  document.getElementById('nav-color').classList.remove('bg-primary')
+  document.getElementById('nav-color').classList.remove('bg-secondary')
+  document.getElementById('nav-color').classList.remove('bg-dark')
+  document.getElementById('nav-color').classList.add('bg-grey')
 }
 
 
